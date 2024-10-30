@@ -1,14 +1,17 @@
-Integrating Fluent Bit with Elasticsearch and Visualizing Logs in Kibana
-Overview
+ **Integrating Fluent Bit with Elasticsearch and Visualizing Logs in Kibana**
+ 
+**Overview**
+
 Recently, I embarked on a project to set up an EFK (Elasticsearch, Fluent Bit, Kibana) stack for log aggregation and visualization. This experience was rich with learning opportunities, particularly through troubleshooting various challenges. Below, I share the key insights and steps I took to successfully integrate these tools.
 
-Key Learnings and Achievements
-Enhanced Troubleshooting Skills: Through the process, I developed strong troubleshooting abilities, especially in diagnosing and resolving issues related to log forwarding and data visualization.
+**Key Learnings and Achievements
+**Enhanced Troubleshooting Skills: Through the process, I developed strong troubleshooting abilities, especially in diagnosing and resolving issues related to log forwarding and data visualization.
 Fluent Bit Configuration Mastery: I gained expertise in configuring Fluent Bit to effectively send logs to Elasticsearch.
 Secure Integration with Elasticsearch: Successfully established a secure connection between Fluent Bit and Elasticsearch, ensuring data integrity and security.
 Effective Use of Kibana: Learned how to set up and utilize Kibana to create custom dashboards and visualizations for analyzing logs.
 Steps to Set Up the EFK Stack
 Deploying Elasticsearch:
+
 
 Set up Elasticsearch in the Kubernetes cluster as a StatefulSet, ensuring it was configured to handle log data securely and efficiently.
 Creating Service Accounts and IAM Roles:
