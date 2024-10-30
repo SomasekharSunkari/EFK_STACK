@@ -1,0 +1,1 @@
+Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. It enables you to store, search, and analyze large volumes of data quickly and in near real-time. It is a part of the Elastic Stack (commonly known as the ELK Stack, which includes Elasticsearch, Logstash, and Kibana), but it can also be used standalone.
